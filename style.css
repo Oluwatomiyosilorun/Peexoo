@@ -1,0 +1,103 @@
+:root {
+    --header-background-color: #fff;
+    --header-text-color: #4d4d4d;
+    --second-nav-color: #ffb400;
+    --calendar-row:rgba(255, 181, 3, 0.07);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffb503 !important;
+}
+
+.navbar{
+    background-color: var(--header-background-color);
+}
+
+.navbar-two{
+    background-color: var(--second-nav-color);
+}
+
+.navbar-two ul{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.navbar-two .nav-link.active{
+    background-color: var(--header-text-color);
+    color: var(--header-background-color);
+}
+
+.navbar-right{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.navbar-right .nav-link{
+     color: var(--header-background-color);
+}
+
+/* .navbar-right .nav-link:hover{
+    color: var(--header-text-color);
+} */
+
+.camera_man{
+    z-index: 100;
+    margin-top: -5%;
+    position: absolute;
+}
+
+#login{
+    color: var(--second-nav-color);
+}
+
+.apple_girl img{
+    width: -webkit-fill-available;
+    margin-top: 5%;
+    height: auto;
+}
+
+.btn-style{
+    justify-content: flex-end;
+    /* border-radius: 50%; */
+}
+
+.btn-primary,
+.btn-secondary:hover{
+    background-color: transparent;
+    border-color: var(--second-nav-color);
+    color: var(--second-nav-color);
+}
+
+.btn-secondary,
+.btn-primary:hover{
+    background-color: var(--second-nav-color);
+    border-color: var(--second-nav-color);
+    color: var(--header-background-color);
+}
+
+.calender-row{
+    background-color: var(--calendar-row);
+}
+
+.rounded{
+    border-radius: 1.10rem !important;
+}
+
+.footer{
+    background-color: var(--header-background-color);
+}
+
+.footer-list,
+.calender{
+    justify-content: space-around;
+}
+
+p{
+    margin-bottom: 0.5rem !important;
+}
+
+.signature{
+    background-color: black;
+    color: var(--header-background-color);
+}
